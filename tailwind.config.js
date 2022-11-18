@@ -18,18 +18,27 @@ module.exports = {
                 'main-gray': '#F5F5F5',
                 'darkGray': '#878D9D',
                 'employ': '#a1b1db',
-                'benefit':'#FFCF00',
-                'backBtn':'#384564',
+                'benefit': '#FFCF00',
+                'backBtn': '#384564',
             },
             borderColor: {
                 'employ': '#55699e',
-                'benefit':'#FFCF00'
+                'benefit': '#FFCF00'
             },
             listStyleType: {
                 'square': 'square'
             },
-            margin:{
+            margin: {
                 'minus6': '-6rem'
+            },
+            width: {
+                'fullScreen': '100vw',
+            },
+            height: {
+                'fullScreen': '100vh'
+            },
+            animation: {
+                'spinSlow': 'spin 4s linear infinite;'
             }
         },
     },
