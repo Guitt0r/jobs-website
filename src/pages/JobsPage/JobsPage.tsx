@@ -1,6 +1,6 @@
 import {FC, useEffect} from "react";
-import {getJobs} from "../../redux/jobsReducer";
-import {selectIsFetching, selectJobs} from "../../redux/jobsSelector";
+import {getJobs} from "../../redux/jobs-reducer";
+import {selectIsFetching, selectJobs} from "../../redux/jobs-selector";
 import {Outlet} from "react-router-dom";
 import {useAppDispatch, useAppSelector} from "../../hooks/react-redux-hooks";
 import Preloader from "../../components/common/Preloader/Preloader";

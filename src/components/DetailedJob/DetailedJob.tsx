@@ -1,4 +1,4 @@
-import {selectDetailedJob} from "../../redux/jobsSelector";
+import {selectDetailedJob} from "../../redux/jobs-selector";
 import {useParams} from "react-router-dom";
 import JobDetails from "./JobDetails/JobDetails";
 import AdditionalInfo from "./AdditionalInfo/AdditionalInfo";

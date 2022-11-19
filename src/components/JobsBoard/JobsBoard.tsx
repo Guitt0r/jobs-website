@@ -1,10 +1,10 @@
 import JobItem from "./JobItem/JobItem";
 import {useOutletContext} from "react-router-dom";
 import Pagination from "../common/Pagination/Pagination";
-import {selectPageNumber} from "../../redux/jobsSelector";
+import {selectPageNumber} from "../../redux/jobs-selector";
 import {FC} from "react";
 import {JobType} from "../../types/types";
-import {actions} from "../../redux/jobsReducer";
+import {actions} from "../../redux/jobs-reducer";
 import {useAppDispatch, useAppSelector} from "../../hooks/react-redux-hooks";
 
 type Props = {}
